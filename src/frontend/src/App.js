@@ -38,7 +38,7 @@ function App() {
           <Route path="/thank">
             <Thanks />
           </Route>
-          <Route path="/Recipes">
+          <Route path="/recipes">
             <RecipesPage />
           </Route>
         </Switch>

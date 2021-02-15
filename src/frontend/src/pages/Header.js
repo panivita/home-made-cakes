@@ -10,7 +10,7 @@ export const Header = () => {
           <a href="/">Home</a>
         </li>
         <li>
-          <Link to="/About">About</Link>
+          <Link to="/about">About</Link>
         </li>
       </ul>
       <div className="center-menu">
@@ -23,7 +23,7 @@ export const Header = () => {
           <Link to="/cakes">Cakes</Link>
         </li>
         <li>
-          <Link to="/Recipes">Blog</Link>
+          <Link to="/recipes">Blog</Link>
         </li>
       </ul>
     </nav>
