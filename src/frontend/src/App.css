@@ -1,0 +1,114 @@
+.background {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #8764ab;
+  background-image: linear-gradient(45deg, #6e318b 25%, transparent 25%), linear-gradient(-45deg, #6e318b 25%, transparent 25%), linear-gradient(135deg, #6e318b 25%, transparent 25%), linear-gradient(-135deg, #6e318b 25%, transparent 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+}
+
+.main-menu {
+  display: flex;
+  margin: 2% 10%;
+  font-size: 18px;
+}
+
+.right-menu, .left-menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-menu p, .left-menu p {
+  width: 25%;
+}
+
+.right-menu a, .left-menu a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fcd382;
+}
+
+.right-menu {
+  justify-items: right;
+}
+
+.left-menu {
+  justify-items: left;
+}
+
+.center-menu img {
+  position: absolute;
+  left: 44%;
+}
+
+.search-input {
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 50px;
+  border-color: #8767ab;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 #333333;
+  padding: 5px;
+  outline: none;
+  text-align: center;
+}
+
+.copyright {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  color: #fcd382;
+}
+
+footer {
+  background-color: #8764ab;
+  background-image: linear-gradient(45deg, #6e318b 25%, transparent 25%), linear-gradient(-45deg, #6e318b 25%, transparent 25%), linear-gradient(135deg, #6e318b 25%, transparent 25%), linear-gradient(-135deg, #6e318b 25%, transparent 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .center-menu img {
+    left: 43%;
+    width: 15%;
+  }
+  .search-input {
+    width: 40%;
+  }
+  .auto-container {
+    width: 40%;
+    top: 54%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .center-menu img {
+    left: 40%;
+    width: 20%;
+  }
+  .left-menu li, .right-menu li {
+    font-size: 16px;
+  }
+  .center-menu img {
+    top: 60%;
+  }
+  .background {
+    background-position: center center;
+  }
+}

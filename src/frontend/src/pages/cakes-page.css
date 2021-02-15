@@ -1,0 +1,64 @@
+.cakes-container, .cakes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-cake {
+    padding: 5%;
+    background: #fff;
+    box-shadow: 1px 1px 10px #ccc;
+    border-radius: 5px;
+}
+
+.cakes {
+    flex-direction: column;
+    border: 2px solid #79518f;
+    box-shadow: 0 0 5px 0 #333333;
+    border-radius: 5px;
+    margin: 2% 0;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    background-color: #fffccf;
+}
+
+.cakes-container {
+    margin: 2% 5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cakes p, .cakes h1 {
+    padding: 2%;
+}
+
+.cakes h1 {
+    margin-top: 3%;
+}
+
+.booking {
+    margin: 4% 0 6% 0;
+    min-height: 30px;
+    border-radius: 5px;
+    background-color: #8764ab;
+    border: 2px solid #79518f;
+    box-shadow: 0 2px 2px 1px #333333;
+    font-weight: bold;
+    color: #fcd382;
+    width: 110px;
+    font-size: 16px;
+    padding: 1%;
+}
+
+@media screen and (max-width: 950px) {
+    .cakes {
+        width: 45%;
+    }
+    .booking {
+        width: 80px;
+        font-size: 14px;
+    }
+    .cakes p {
+        font-size: 14px;
+    }
+}

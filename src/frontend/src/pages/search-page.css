@@ -1,0 +1,23 @@
+.auto-container {
+    width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px solid #79518f;
+    border-right: 2px solid #79518f;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 5px 0 #333333;
+    position: absolute;
+    top: 56%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.options {
+    border-bottom: 2px solid #79518f;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 2% 0;
+    font-size: 18px;
+}

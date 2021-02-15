@@ -1,0 +1,89 @@
+h1 {
+    text-transform: uppercase;
+    font-size: 26px;
+    margin: 1% 0 1% 2%;
+}
+
+.about-container {
+    margin: 10% 5% 5% 5%;
+    ;
+    display: flex;
+    flex-direction: column;
+}
+
+.cupcake-with-line .cupcake-img {
+    width: 6%;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
+.cupcake-with-line {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.line-1, .line-2 {
+    border-top: 1px dashed #6e318b;
+    width: 21%;
+    margin-top: 2%;
+}
+
+.description-about p {
+    padding: 1% 2%;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: start;
+}
+
+.description-about {
+    width: 60%;
+}
+
+.logo, .profil-foto {
+    width: 30%;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profil-foto img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.logo-img {
+    width: 90%;
+    margin-top: 84%;
+}
+
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 20px;
+        margin-top: 7%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 14px;
+    }
+    .cupcake-with-line .cupcake-img {
+        width: 9%;
+    }
+    .description-about p {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .logo-img {
+        display: none;
+    }
+    .logo {
+        width: 0;
+    }
+    .description-about {
+        width: 70%;
+    }
+}
