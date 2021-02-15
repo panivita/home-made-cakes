@@ -74,7 +74,7 @@ router.delete("/:id", async (req, res) => {
 //Get meals that has been created after the date
 //Only specific number of meals
 // Works as a multi-step search, you can combine all parameters for the search,
-//you can find food that matches all search criteria
+//you can find cake that matches all search criteria
 router.get("/", async (req, res) => {
   const {
     maxPrice,

@@ -5,19 +5,18 @@ import { BookingPage } from "./pages/booking-page";
 import { Thanks } from "./pages/thank-page";
 import { Auto } from "./pages/search-page";
 import { RecipesPage } from "./pages/recipes-page";
+import { AboutPage } from "./pages/about-page";
+import { Header } from "./pages/Header";
 import Background from "./img/background.jpg";
 
 import "./reset.css";
 import "./App.css";
-import { AboutPage } from "./pages/about-page";
-import { Header } from "./pages/Header";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header/>
-
+        <Header />
         <Switch>
           <Route exact path="/">
             <div
@@ -53,4 +52,3 @@ function App() {
 }
 
 export default App;
-
