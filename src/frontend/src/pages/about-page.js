@@ -1,7 +1,7 @@
 import React from "react";
 
-import cupcakeImagePath from "./cupcake.png";
-import Logo from "./logo.png";
+import cupcakeImagePath from "../img/cupcake.png";
+import Logo from "../img/logo.png";
 import "./about-page.css";
 
 export const AboutPage = () => {

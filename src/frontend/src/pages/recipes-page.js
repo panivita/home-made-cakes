@@ -1,5 +1,5 @@
 import React from "react";
-import cupcakeImagePath from "./cupcake.png";
+import cupcakeImagePath from "../img/cupcake.png";
 import "./recipes-thank-page.css";
 
 export const RecipesPage = () => {

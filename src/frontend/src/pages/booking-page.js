@@ -3,8 +3,8 @@ import { useParams, useHistory } from "react-router-dom";
 import Rater from "react-rater";
 import "react-rater/lib/react-rater.css";
 import AddReservationForm from "./form-booking-page";
-import cupcakeImagePath from "./cupcake.png";
-import cakesImagePath from "./cakes.png";
+import cupcakeImagePath from "../img/cupcake.png";
+import cakesImagePath from "../img/cakes.png";
 import "./booking-page.css";
 
 const CakeWithReviews = ({
